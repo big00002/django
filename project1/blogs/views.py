@@ -5,4 +5,3 @@ from django.template import loader
 def blogs(request):
     template = loader.get_template('blogs.html')
     return HttpResponse(template.render())
-
